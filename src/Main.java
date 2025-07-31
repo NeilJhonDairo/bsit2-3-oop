@@ -5,7 +5,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         
         
-        System.out.println("Enter Student Information");
+        System.out.println("ENTER STUDENT INFORMATION");
         System.out.print("Enter Student ID: ");
         String studentId = scanner.nextLine(); 
         
@@ -61,6 +61,5 @@ public class Main {
          System.out.println("Remarks: " + remarks);
          
          scanner.close();
-
     }
 }
