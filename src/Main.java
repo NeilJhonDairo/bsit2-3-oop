@@ -15,6 +15,5 @@ public class TotalNumber{
         System.out.println("\nTotal Number: " + totalNumber);
         
         scanner.close();
-
     }
 }
