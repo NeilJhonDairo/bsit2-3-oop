@@ -22,14 +22,10 @@ public class GradeCalculator {
     }
 
     public void displayResult(String studentName, double average) {
-        System.out.println("Student: " + studentName);
-        System.out.println("Average: " + average);
+        System.out.println("Student: " + studentName + ", Avarage: " + average);
     }
 
     public void displayResult(String studentName, double average, String letterGrade) {
-        System.out.println("Student: " + studentName);
-        System.out.println("Average: " + average);
-        System.out.println("Letter Grade: " + letterGrade);
+        System.out.println("Student: " + studentName + ", Average: " + average + ", Grade: " + letterGrade);
     }
 }
-
