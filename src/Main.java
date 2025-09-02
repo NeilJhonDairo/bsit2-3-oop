@@ -9,7 +9,6 @@ public class Main {
         String letterGrade = calculator.getLetterGrade(average);
         
         calculator.displayResult(studentName, average);
-        System.out.println();
         calculator.displayResult(studentName, average, letterGrade);
     }
 }
