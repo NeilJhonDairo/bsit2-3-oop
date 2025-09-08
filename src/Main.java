@@ -1,28 +1,29 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("≡ Book Record System ≡\n");
-        System.out.println("Adding books and ratings...");
-
-        Book book1 = new Book("Java Programming", "John Smith", 450);
-        Book book2 = new Book("Data Structures", "Alice Brown", 350);
-        Book book3 = new Book("Web Development", "Bob Wilson", 400);
 
 
-        book1.setRating(4.0);
-        book2.setRating(4.25);
-        book3.setRating(3.2);
+        ArrayList<String> items = new ArrayList<>();
+        items.add("Burger");
+        items.add("Fries");
+        items.add("Pizza");
 
-        System.out.println("Ratings added: 5, 4, 3, 5");
-        System.out.println("Error: Invalid rating: must be 1-5 stars");
+        ArrayList<Double> prices = new ArrayList<>();
+        prices.add(8.50);
+        prices.add(3.25);
 
+        Food order1 = new Food("Alice Johnson", items, prices);
+        order1.displayInfo();
 
-        System.out.println("\nBook Results:");
-        book1.displayInfo();
-        book2.displayInfo();
-        book3.displayInfo();
+        Food order2 = new Food("Bob Smith", items, prices);
+        order2.displayInfo();
 
+        Food order3 = new Food("Charlie Brown", items, prices);
+        order3.displayInfo();
 
         System.out.println("\nTotal books created: 3");
-        System.out.println("Highest rated book: Data Structures by Alice Brown (4.25)");
+        System.out.println("Largest order: Bob Smith (32.45");
     }
 }
+
