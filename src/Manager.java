@@ -26,6 +26,6 @@ class Manager extends Employee {
     public void displayInfo() {
         super.displayInfo();
         System.out.println("Bonus: $" + this.bonus);
-        System.out.println("Team Size: " + this.teamSize + " " +"employees");
+        System.out.println("Team Size: " + this.teamSize + " " + "employees");
     }
 }
