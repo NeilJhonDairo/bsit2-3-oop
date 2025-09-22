@@ -1,14 +1,14 @@
 class PetService {
     public double calculateFee() {
-        return 50.0; // basic checkup
+        return 50.0;
     }
     public double calculateFee(boolean withVaccination) {
-        return 75.0; // checkup + vaccination
+        return 75.0;
     }
     public double calculateFee(boolean withVaccination, boolean withGrooming) {
-        return 105.0; // full service
+        return 105.0;
     }
     public double calculateFee(String emergency) {
-        return 200.0; // emergency
+        return 200.0;
     }
 }
